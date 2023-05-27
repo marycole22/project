@@ -1,0 +1,713 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Rubik', sans-serif;
+cursor: pointer;
+box-sizing: border-box;
+}
+
+.header{
+    background-color: #090925;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header .num{
+    display: flex;
+}
+.header .num #num{
+    padding-left: 20px;
+}
+.header .media i{
+    padding: 5px;
+}
+
+.navbar .nav{
+    padding: 25px;
+    display: flex;
+    
+}
+ .navbar .bar{
+    display: none;
+}
+
+.navbar h1{
+    font-weight: bold;
+    flex: 1;
+    
+}
+
+.navbar .bar{
+    flex: 4;
+    line-height: 3;
+   
+}
+.navbar .bar a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+    
+}
+
+.navbar .log{
+    color: #4CC2F2;
+   line-height: 3;
+}
+.navbar .log #cart{
+    padding: 10px;
+}
+
+.upper img{
+    height: 600px;
+    width: 100%;
+   
+}
+
+.upper{
+    position: relative;
+}
+.upper .texting{
+    position: absolute;
+    top: 35%;
+    left: 80px;
+    color: white;
+    font-size: 24px;
+   
+    
+}
+.upper .texting h1{
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.upper .texting #word-break{
+    white-space: pre-line;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.upper .texting button{
+    background-color: #55ec55;
+    padding: 10px ;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    width: 130px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+.pick .editor{
+    text-align: center;
+    margin: 40px auto;
+   
+}
+.pick .editor h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+.pick .choose{
+   display: flex;
+   justify-content: center;
+}
+
+.choose .men,
+.choose .women,
+.choose .access,
+.choose .kids {
+    position: relative;
+}
+
+.choose img{
+    margin: 12px;
+    width: 300px;
+}
+
+.choose h3 {
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    color: #000;
+    font-size: 15px;
+    background-color: #fff;
+    padding: 10px;
+    
+}
+.choose #men {
+    width: 400px;
+    height: 450px;
+}
+.choose .break{
+    display: flex;
+    flex-direction: column;
+
+}
+.choose .break img{
+    height: 210px;
+    width: 200px;
+}
+
+  
+
+ .products .feat{
+     text-align: center;
+     margin: 60px auto;
+     
+}
+.products .feat h3, h1, p{
+    margin: 20px;
+}
+
+.products .feat #pro, #try{
+    color: grey ;
+}
+
+.dress{
+    width:200px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 20px;
+    margin-bottom: 120px;
+    float: left;
+    
+  }
+  
+   .gallary{
+     display: flex;
+     justify-content: center;
+   }
+
+   .dresses{
+      
+    width:200px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+   }
+
+   .dresses img{
+    width: 200px;
+    height: 350px;
+    margin-bottom: 10px; 
+   }
+
+   
+  h2, h4 {
+    margin: 0;
+  }
+  
+  .price {
+    display: flex;
+    justify-content: center;
+  }
+  .price p{
+    margin: 10px;
+  }
+  .price #green{
+    color: #0c770c;
+  }
+  
+  .color {
+    display: flex;
+    justify-content: center;
+   
+    
+  }
+  
+  .color div {
+   
+    margin: 0 3px; 
+  
+  }
+   
+
+.dress img{
+    width: 200px;
+    height: 350px;
+    margin-bottom: 10px; 
+}
+
+
+.blue-color {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #2b9ac5;
+  }
+
+  .pink-color {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #172c34;
+  }
+
+  .orange-color {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #e0531f;
+  }
+
+  .black-color {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #000;
+  }
+
+  .vita img{
+    height: 600px;
+    width: 100%;
+
+  }
+
+
+  .vita{
+    position: relative;
+    margin-top: 100px;
+}
+.vita .texting{
+    position: absolute;
+    top: 25%;
+    left: 80px;
+    color: white;
+    font-size: 24px;
+   
+    
+}
+.vita .texting h1{
+    font-weight: bold;
+    white-space: pre-line;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.vita .texting #word-break {
+
+    margin-bottom: 30px;
+    white-space: pre-line;
+    font-size: 1rem;
+}
+  
+
+.vita .texting button{
+    background-color: #55ec55;
+    padding: 10px ;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    width: 130px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.vita .texting .vita-price{
+    padding-left: 20px;
+}
+.vita .texting .vita-price button{
+    margin-left: 30px;
+}
+
+.part{
+    display: flex;
+    align-items: center;
+}
+.part img{
+    width: 700px;
+    height: 500px;
+    padding-left: 80px;
+}
+.part #neural{
+   margin: 60px;
+   
+}
+.part #neural h3{
+    color: lightgray;
+    font-size: 1rem;
+}
+
+.part #neural h1{
+    margin: 20px auto;
+    white-space: pre-line;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.part #neural p{
+    font-size: 1rem;
+    white-space: pre-line;
+    margin-bottom: 30px;
+}
+
+.part #neural .part-uni button{
+    width: 130px ;
+    padding: 10px ;
+    border-radius: 5px;
+    border: 1px solid  #65964f;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.part #neural .part-uni  #part{
+    background-color: #65964f;
+}
+
+.posts{
+    text-align: center;
+    margin: 80px auto;
+}
+
+.posts #pract{
+    color: #2b9ac5;
+    margin: 20px auto;
+    font-weight: bold;
+}
+.posts h1{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.posts p{
+    white-space: pre-line;
+    font-weight: bold;
+
+}
+
+.advice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 120px;
+   
+}
+.new img{
+    width: 100%;
+    height: 350px;
+    
+}
+
+.new{
+    margin: 5px;
+    position: relative;
+    border: 1px solid white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.new #new{
+    position: absolute;
+    top: 6%;
+    left: 80px;
+    color: white;
+    font-size: 24px;
+    background-color: #ea2c2c;
+    padding: 5px;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+}
+.new .madison{
+   margin: 30px;
+}
+.new .madison #tread {
+     
+    display: flex;
+   margin-bottom: 20px;
+}
+
+.new .madison #tread #google{
+    color: #4CC2F2;
+    margin-left: 4px;
+    
+}
+
+.new .madison #tread p{
+    margin:  10px;
+}
+
+.new .madison h1{
+    white-space: pre-line;
+    margin-bottom: 12px;
+}
+
+.new .madison p{
+    margin-bottom: 20px;
+    white-space: pre-line;
+}
+
+.new .madison .date{
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+    
+}
+.new .madison .date i{
+    
+    margin-right: 8px;
+    font-size: 1.2rem;
+
+
+}
+
+.new .madison .date  #alerm{
+    color: #4CC2F2;
+}
+
+.new .madison .date #folder{
+    color: #65964f;
+}
+
+.new .madison h3{
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.band{
+   background-color: #f3f3f3;
+   margin-top: 100px ;
+}
+
+#brand{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px auto;
+   
+    }
+   #brand h1{
+    padding-left: 100px;
+    margin-top: 35px;
+   }
+
+   #brand .meda{
+    padding-right: 150px;
+   }
+
+
+#brand .meda i{
+    padding: 10px;
+    font-size: 1.5rem;
+    color: #4CC2F2;
+    margin-top: 35px;
+
+}
+
+#company{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px ;
+    background-color: #fff;
+    padding: 70px;
+   
+}
+#company .company h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+#company .company h3{
+    color: gray;
+    margin: 10px auto;
+    padding: 10px auto;
+}
+
+.get h2{
+    margin-bottom: 25px;
+}
+.get input{
+    padding: 20px ;
+    margin-right: -10px;
+    border: 1px solid #fcf9f9;
+    outline: none;
+    background-color: #f3f3f3;
+    font-size: 1.2rem;
+   
+}
+.get #submit{
+    background-color: #4CC2F2;
+}
+
+.made h3{
+   padding: 50px;
+   margin-left: 50px;
+}
+
+
+
+@media all and (max-width:1000px){
+
+    .header{
+        display: none;
+    }
+    .navbar .nav{
+        display: none;
+    }
+    .navbar .bar{
+        display: block;
+    }
+    .navbar .bar #head-bar{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    .navbar .bar #head-bar h1{
+         padding-left: 40px;
+         font-weight: bold;
+         font-size: 2rem;
+    }
+
+    .navbar .bar #head-bar .search{
+        padding-right: 40px;
+    }
+    .navbar .bar #head-bar .search i{
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+    .navbar .bar #product{
+        padding: 50px ;
+    }
+    .navbar .bar #product a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: grey;
+        font-weight: bold;
+        font-size: 1.5rem;
+        
+    }
+    .upper .texting{
+        text-align: center;
+        left: 3%;
+        top: 30%;
+    }
+   
+
+    .choose {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .choose .women img{
+        width: 400px;
+       
+    }
+    .choose .break img{
+        width: 400px;
+        height: 300px;
+    }
+    
+    .gallary {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallary .dress {
+        margin: 20px;
+    }
+    .gallary .dress .dresses{
+        margin: 20px;
+    }
+  
+
+   .part{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+   .part img{
+    width: 480px;
+   order: 2;
+   }
+   .part #neural{
+    order: 1;
+   }
+    
+   .part #neural .part-uni button{
+      
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    border: 1px solid #4CC2F2;
+    color: #4CC2F2;
+    padding: 20px;
+
+   }
+   .part #neural .part-uni #part{
+    background-color: #4CC2F2;
+    color: white;
+   }
+
+   .advice{
+    display: flex;
+    flex-direction: column;
+   }
+   #house{
+    order: 3;
+   }
+   #car{
+    order: 2;
+   }
+    #brand{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    
+   }
+   #brand h1{
+    padding-left: 10px;
+    margin-bottom: -30px;
+    
+   }
+   #brand .meda{
+    padding-left: 17px;
+   
+   }
+
+   #company{
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    
+   }
+   .company h2{
+    margin: 20px auto;
+   }
+    
+   .company h2,
+   .company h3{
+       word-spacing: 10px; 
+      
+   }
+
+   .get{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+   }
+   .get input{
+    width: 200px;
+   }
+   .get #submit{
+    width: 120px;
+   }
+   .get p{
+    font-size: 0.8rem;
+   }
+
+}
